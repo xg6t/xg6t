@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Medication Adherence & Safety System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7f9;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+        section {
+            padding: 20px 10%;
+        }
+        h2 {
+            color: #4CAF50;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 5px;
+        }
+        ul {
+            margin: 10px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .important {
+            color: #e74c3c;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>نظام ذكي لإدارة الأدوية والالتزام بالعلاج</h1>
+    <p>Smart Medication Adherence & Safety System</p>
+</header>
+
+<section>
+    <h2>وصف المشروع</h2>
+    <p>
+        المشروع هو نظام ويب وتطبيق موبايل ذكي يساعد المرضى على إدارة أدويةهم بشكل آمن وفعّال.
+        يمكن للمستخدم رفع وصفة طبية أو إدخالها يدويًا، ويستقبل تنبيهات ذكية لتناول الجرعات،
+        ويراقب التداخلات الدوائية، ويوفر تقارير متابعة الالتزام بالعلاج.
+        النظام مصمم خصيصًا لكبار السن والمرضى المزمنين لتسهيل إدارة الأدوية وتقليل الأخطاء الطبية.
+    </p>
+</section>
+
+<section>
+    <h2>المشكلة التي يحلها المشروع</h2>
+    <ul>
+        <li>نسيان المرضى أخذ الجرعات في وقتها</li>
+        <li>خلط الأدوية أو تعارضها</li>
+        <li>توقف العلاج المبكر أو التأخير في الجرعات</li>
+        <li>كبار السن يجدون صعوبة في متابعة الأدوية</li>
+        <li>نقص التوعية بالعلاجات والمضاعفات المحتملة</li>
+    </ul>
+</section>
+
+<section>
+    <h2>المميزات الأساسية</h2>
+    <table>
+        <tr>
+            <th>الميزة</th>
+            <th>الوصف</th>
+            <th>الفائدة</th>
+        </tr>
+        <tr>
+            <td>إدخال الوصفة</td>
+            <td>رفع صورة وصفة أو إدخال يدوي</td>
+            <td>تقليل الأخطاء في الجرعات</td>
+        </tr>
+        <tr>
+            <td>تنبيه ذكي</td>
+            <td>إشعارات قبل/بعد الأكل وتنبيه عند النسيان</td>
+            <td>زيادة الالتزام بالعلاج</td>
+        </tr>
+        <tr>
+            <td>كشف التداخلات</td>
+            <td>مقارنة الأدوية الجديدة مع الحالية</td>
+            <td>حماية المريض من التفاعلات الخطرة</td>
+        </tr>
+        <tr>
+            <td>متابعة الالتزام</td>
+            <td>نسبة الجرعات الملتزمة، رسومات بيانية</td>
+            <td>متابعة دقيقة من المريض والطبيب</td>
+        </tr>
+        <tr>
+            <td>وضع كبار السن</td>
+            <td>واجهة كبيرة، قراءة صوتية، ألوان مميزة</td>
+            <td>سهولة الاستخدام لفئة كبار السن</td>
+        </tr>
+        <tr>
+            <td>تنبيه إعادة صرف</td>
+            <td>قبل انتهاء الدواء</td>
+            <td>استمرار العلاج بدون انقطاع</td>
+        </tr>
+        <tr>
+            <td>تسجيل الأعراض</td>
+            <td>مراقبة الأعراض الجانبية وتحذير إذا خطيرة</td>
+            <td>الكشف المبكر عن مضاعفات محتملة</td>
+        </tr>
+    </table>
+</section>
+
+<section>
+    <h2>التقنيات المستخدمة</h2>
+    <ul>
+        <li>Backend: Node.js (Express) أو Java Spring Boot</li>
+        <li>Frontend: React.js + HTML/CSS/JS</li>
+        <li>Database: MySQL</li>
+        <li>OCR: Tesseract أو Google Vision API</li>
+        <li>Notifications: Firebase, SMS, WhatsApp API</li>
+        <li>AI: تحليل التداخلات، التنبؤ بالالتزام، مراقبة الأعراض</li>
+        <li>Security: HTTPS، تشفير البيانات، التحكم بالوصول</li>
+    </ul>
+</section>
+
+<section>
+    <h2>الميزات المستقبلية والتحسينات المقترحة</h2>
+    <ul>
+        <li>تكامل مع قواعد بيانات طبية رسمية أو منصات مثل "وصفتي"</li>
+        <li>ذكاء اصطناعي متقدم لتوقع نسيان الجرعات والتحذير المبكر</li>
+        <li>تنبيهات متعددة القنوات (Push, SMS, WhatsApp)</li>
+        <li>تحليلات وتقارير متقدمة للمريض والطبيب</li>
+        <li>تطبيق موبايل متزامن مع قاعدة البيانات</li>
+        <li>قسم توعوي داخل النظام عن الأدوية والمضاعفات</li>
+        <li>أمان وحماية البيانات (تشفير AES، تسجيل دخول آمن، تحكم بالوصول)</li>
+    </ul>
+</section>
+
+<section>
+    <h2>الفائدة العملية للمشروع</h2>
+    <ul>
+        <li>تقليل الأخطاء الطبية المرتبطة بالأدوية</li>
+        <li>زيادة الالتزام بالعلاج وتقليل المضاعفات</li>
+        <li>خدمة كبار السن والمرضى المزمنين</li>
+        <li>قابل للتطوير كتطبيق حقيقي في المستشفيات أو المجتمع</li>
+    </ul>
+</section>
+
+<section>
+    <h2>الخلاصة</h2>
+    <p>
+        المشروع يجمع بين الذكاء الاصطناعي، قواعد البيانات، واجهات المستخدم، وإشعارات ذكية لتقديم حل عملي لمشكلة حقيقية في المجتمع.
+        مع التحسينات المقترحة، سيصبح النظام متكامل، آمن، وفعّال لخدمة المرضى، الأطباء، والمجتمع.
+    </p>
+</section>
+
+</body>
+</html>
